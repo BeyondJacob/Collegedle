@@ -1,0 +1,21 @@
+.footer-socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.social-button {
+  background: transparent;
+  box-shadow: 0px 0px 0px transparent;
+  border: 0px solid transparent;
+  text-shadow: 0px 0px 0px transparent;
+}
+
+.socials-col>h5 {
+  padding-top: 2px;
+  padding-left: 14px;
+  padding-right: 14px;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+}

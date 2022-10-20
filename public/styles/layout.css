@@ -1,0 +1,23 @@
+html {
+  background-color: #F1F1F1;
+  font-family: 'Montserrat', sans-serif;
+}
+.game {
+  margin: 0 auto;
+  max-width: 500px;
+}
+.letters-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#keyboard {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  margin: auto;
+}
