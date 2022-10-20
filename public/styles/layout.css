@@ -2,6 +2,28 @@ html {
   background-color: #F1F1F1;
   font-family: 'Montserrat', sans-serif;
 }
+
+.category-choice {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding-top: 20px;
+}
+.category-choice>label {
+  padding-bottom: 6px;
+  font-weight: 700;
+}
+.category-choice>select {
+  margin: auto;
+  width: 18.2rem;
+  padding: 0.2rem;
+  border-radius: 4px;
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+}
+
 .game {
   margin: 0 auto;
   max-width: 500px;
