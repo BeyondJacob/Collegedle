@@ -1,0 +1,38 @@
+#keyboard {
+  margin: auto;
+}
+
+.keyboard-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 0 auto 8px;
+}
+
+.keyboard-buttons {
+  cursor: pointer;
+  height: 4rem;
+  width: 2.5rem;
+  border-color: black;
+  border-width: 2px;
+  border-radius: 6px;
+  font-weight: 700;
+}
+.keyboard-row-middle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 0 auto 8px;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.keyboard-buttons-special {
+  cursor: pointer;
+  height: 4rem;
+  width: 4.3rem;
+  border-color: black;
+  border-width: 2px;
+  border-radius: 6px;
+  font-weight: 700;
+}
